@@ -8,11 +8,11 @@
   <created_user>-</created_user>
   <created_date>2025/01/17 13:10:05.051</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2025/01/17 14:16:04.170</modified_date>
+  <modified_date>2025/01/17 14:34:46.442</modified_date>
   <parameters>
     <parameter>
       <name>MyPath</name>
-      <default_value>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_Projects\BI_54</default_value>
+      <default_value>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI</default_value>
       <description>A path to the Bl_Projects folder</description>
     </parameter>
   </parameters>
@@ -391,7 +391,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_Country</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\Country.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\Country.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -418,7 +418,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_Address</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\Address.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\Address.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -445,7 +445,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_Person</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\Person.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\Person.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -472,7 +472,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_Customer</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\Customer.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\Customer.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -499,7 +499,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_OrderStatus</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\OrderStatus.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\OrderStatus.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -526,7 +526,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_ProductTopCategory</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\ProductTopCategory.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\ProductTopCategory.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -553,7 +553,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_ProductSubCategory</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\ProductSubCategory.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\ProductSubCategory.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -580,7 +580,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_ProductModel</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\ProductModel.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\ProductModel.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -607,7 +607,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_Product</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\Product.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\Product.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -634,7 +634,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_ShipMethod</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\ShipMethod.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\ShipMethod.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -661,7 +661,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_SalesOrderHeader</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\SalesOrderHeader.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\SalesOrderHeader.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
@@ -688,7 +688,7 @@
       <attributes/>
       <schemaname>BI_Bikes_54</schemaname>
       <tablename>TB_SalesOrderDetail</tablename>
-      <filename>C:\Users\paulf\OneDrive\Uni\TU\WS24\BI\BI_54\csv_data\SalesOrderDetail.csv</filename>
+      <filename>${MyPath}\BI_Projects\BI_54\csv_data\SalesOrderDetail.csv</filename>
       <separator/>
       <enclosed/>
       <escaped/>
