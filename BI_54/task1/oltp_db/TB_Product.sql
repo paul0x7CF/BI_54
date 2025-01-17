@@ -4,10 +4,10 @@ CREATE TABLE TB_Product (
     ProductNumber         VARCHAR(50)     NOT NULL,
     StandardCost          DECIMAL(13,4)   NOT NULL,
     ListPrice             DECIMAL(13,4)   NOT NULL,
-    ProductSubCategoryID  INT,
-    ProductModelID        INT,
+    ProductSubCategoryID  INT			  NULL,
+    ProductModelID        INT			  NULL,
     SellStartDate         DATE            NOT NULL,
-    SellEndDate           DATE,
+    SellEndDate           DATE			  DEFAULT NULL,
     CONSTRAINT PK_Product
         PRIMARY KEY (ProductID),
     CONSTRAINT FK_ProductSubCategory_Product
