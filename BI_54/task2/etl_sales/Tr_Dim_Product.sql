@@ -3,7 +3,7 @@ TRUNCATE TABLE BI_BikesDW_54.Dim_Product;
 SET FOREIGN_KEY_CHECKS = 1;
 
 INSERT INTO BI_BikesDW_54.Dim_Product (
-    ProductKey, 
+    ProductKey, 						-- = ProductID    
     ProductName, 
     ProductModelName, 
     ProductSubCategoryName, 
@@ -12,7 +12,7 @@ INSERT INTO BI_BikesDW_54.Dim_Product (
     ListPrice, 
     StartDate, 
     EndDate, 
-    ProductStatus
+    ProductStatus						-- If SellEndDate is NULL or SellEndDate is later than '2021-09-30' then 'Current', otherwise SellEndDate is 'Discontinued'
 )
 SELECT 
     P.ProductID AS ProductKey, 
