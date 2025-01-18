@@ -8,7 +8,7 @@
   <created_user>-</created_user>
   <created_date>2025/01/18 15:04:14.414</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2025/01/18 17:38:46.667</modified_date>
+  <modified_date>2025/01/18 18:29:55.877</modified_date>
   <parameters>
     <parameter>
       <name>MyPath</name>
@@ -439,6 +439,24 @@
       <yloc>64</yloc>
       <attributes_kjc/>
     </entry>
+    <entry>
+      <name>Dim_Date</name>
+      <description/>
+      <type>SQL</type>
+      <attributes/>
+      <sql/>
+      <useVariableSubstitution>F</useVariableSubstitution>
+      <sqlfromfile>T</sqlfromfile>
+      <sqlfilename>${MyPath}\BI_Projects\BI_54\task2\etl_sales\Tr_Dim_Date.sql</sqlfilename>
+      <sendOneStatement>F</sendOneStatement>
+      <connection>BI_BikesDW_54</connection>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>1</nr>
+      <xloc>496</xloc>
+      <yloc>64</yloc>
+      <attributes_kjc/>
+    </entry>
   </entries>
   <hops>
     <hop>
@@ -464,6 +482,15 @@
       <to>Dim_Location</to>
       <from_nr>1</from_nr>
       <to_nr>2</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>N</unconditional>
+    </hop>
+    <hop>
+      <from>Dim_Location</from>
+      <to>Dim_Date</to>
+      <from_nr>2</from_nr>
+      <to_nr>1</to_nr>
       <enabled>Y</enabled>
       <evaluation>Y</evaluation>
       <unconditional>N</unconditional>
