@@ -8,7 +8,7 @@
   <created_user>-</created_user>
   <created_date>2025/01/18 15:04:14.414</created_date>
   <modified_user>-</modified_user>
-  <modified_date>2025/01/19 14:50:53.070</modified_date>
+  <modified_date>2025/01/19 15:13:23.192</modified_date>
   <parameters>
     <parameter>
       <name>MyPath</name>
@@ -16,6 +16,78 @@
       <description/>
     </parameter>
   </parameters>
+  <connection>
+    <name>BI_BikesDW_54</name>
+    <server>localhost</server>
+    <type>MYSQL</type>
+    <access>Native</access>
+    <database>BI_BikesDW_54</database>
+    <port>3306</port>
+    <username>bi2024</username>
+    <password>Encrypted 2be98afc86aa7f2e4a910fc208cc6989b</password>
+    <servername/>
+    <data_tablespace/>
+    <index_tablespace/>
+    <attributes>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.allowLoadLocalInfile</code>
+        <attribute>true</attribute>
+      </attribute>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.defaultFetchSize</code>
+        <attribute>500</attribute>
+      </attribute>
+      <attribute>
+        <code>EXTRA_OPTION_MYSQL.useCursorFetch</code>
+        <attribute>true</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_LOWERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>FORCE_IDENTIFIERS_TO_UPPERCASE</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>IS_CLUSTERED</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>PORT_NUMBER</code>
+        <attribute>3306</attribute>
+      </attribute>
+      <attribute>
+        <code>PRESERVE_RESERVED_WORD_CASE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>QUOTE_ALL_FIELDS</code>
+        <attribute>N</attribute>
+      </attribute>
+      <attribute>
+        <code>SQL_CONNECT</code>
+        <attribute>SET GLOBAL local_infile = 'ON';
+</attribute>
+      </attribute>
+      <attribute>
+        <code>STREAM_RESULTS</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_BOOLEAN_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>SUPPORTS_TIMESTAMP_DATA_TYPE</code>
+        <attribute>Y</attribute>
+      </attribute>
+      <attribute>
+        <code>USE_POOLING</code>
+        <attribute>N</attribute>
+      </attribute>
+    </attributes>
+  </connection>
   <slaveservers>
     </slaveservers>
   <job-log-table>
@@ -363,7 +435,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>2</nr>
-      <xloc>400</xloc>
+      <xloc>416</xloc>
       <yloc>64</yloc>
       <attributes_kjc/>
     </entry>
@@ -381,7 +453,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>1</nr>
-      <xloc>496</xloc>
+      <xloc>512</xloc>
       <yloc>64</yloc>
       <attributes_kjc/>
     </entry>
@@ -399,7 +471,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>2</nr>
-      <xloc>608</xloc>
+      <xloc>624</xloc>
       <yloc>64</yloc>
       <attributes_kjc/>
     </entry>
