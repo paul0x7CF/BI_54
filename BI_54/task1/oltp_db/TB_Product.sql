@@ -7,7 +7,7 @@ CREATE TABLE TB_Product (
     ProductSubCategoryID  INT			  NULL,
     ProductModelID        INT			  NULL,
     SellStartDate         DATE            NOT NULL,
-    SellEndDate           DATE			  DEFAULT NULL,
+    SellEndDate           DATE			  NULL,
     CONSTRAINT PK_Product
         PRIMARY KEY (ProductID),
     CONSTRAINT FK_ProductSubCategory_Product

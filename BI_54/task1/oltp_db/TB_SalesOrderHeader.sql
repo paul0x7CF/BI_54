@@ -3,7 +3,7 @@ CREATE TABLE TB_SalesOrderHeader (
     SalesOrderNumber  VARCHAR(30)   NOT NULL,
     OrderDate         DATE          NOT NULL,
     DueDate           DATE          NOT NULL,
-    ShipDate          DATE,
+    ShipDate          DATE			NULL,
     OrderStatusID     INT           NOT NULL,
     CustomerID        INT           NOT NULL,
     BillToAddressID   INT           NOT NULL,
