@@ -1,0 +1,9 @@
+SELECT
+    [Measures].[Profit] ON COLUMNS,
+    NON EMPTY ORDER(
+        [Product].[TopCategory].Members,
+        [Measures].[Profit],
+        BDESC
+    ) ON ROWS
+FROM [bike_sales]
+WHERE [OrderDate.Days].[Year].[2021]

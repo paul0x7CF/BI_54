@@ -1,0 +1,15 @@
+SELECT
+    [Measures].[TaxAmount] ON COLUMNS,
+     {([OrderDate.Days].[2021].[1],[ShippedTo].[Country].&[France]),
+      ([OrderDate.Days].[2021].[1],[ShippedTo].[Country].&[Germany]), 
+      ([OrderDate.Days].[2021].[2],[ShippedTo].[Country].&[France]),
+      ([OrderDate.Days].[2021].[2],[ShippedTo].[Country].&[Germany]), 
+      ([OrderDate.Days].[2021].[3],[ShippedTo].[Country].&[France]),
+      ([OrderDate.Days].[2021].[3],[ShippedTo].[Country].&[Germany]), 
+      ([OrderDate.Days].[2021].[4],[ShippedTo].[Country].&[France]),
+      ([OrderDate.Days].[2021].[4],[ShippedTo].[Country].&[Germany]), 
+      ([OrderDate.Days].[2021].[5],[ShippedTo].[Country].&[France]),
+      ([OrderDate.Days].[2021].[5],[ShippedTo].[Country].&[Germany]), 
+      ([OrderDate.Days].[2021].[6],[ShippedTo].[Country].&[France]),
+      ([OrderDate.Days].[2021].[6],[ShippedTo].[Country].&[Germany])} ON ROWS
+FROM [bike_sales]
