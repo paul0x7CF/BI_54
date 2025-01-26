@@ -1,0 +1,7 @@
+Bonus Question. We identified the following points to have potential for improvement:
+
+First and foremost, one could combine the Customer Dimension into a hierarchy (so instead of having Age, Gender, and FullName separately, this could be FullName -> Gender -> Age).
+
+Next point is the missing (fully integrated) ShipMethod dimension. When working with on the query for 3_5, we noticed that we could have made good use of a ShipMethod dimension, e.g., for filtering for "Cargo International" in the MDX query. Since the dimension was missing, we pivoted to SQL, which was more straightforward.
+
+Lastly, the Date dimension does currently not allow for a fine-granular query that, e.g., includes time with hours and minutes.
